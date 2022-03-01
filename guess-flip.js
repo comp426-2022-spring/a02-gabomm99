@@ -10,7 +10,7 @@ if(flipCall == undefined){
     console.log("Usage: node guess-flips --call=[head|tails]")
 }
 if(flipCall != "tails" && flipCall != "heads"){
-    console.log("Usage: node guess-flips --call=[head|tails]")
+    console.log("Usage: node guess-flip.js --call=[head|tails]")
 }
 else{
     console.log(outcome)
