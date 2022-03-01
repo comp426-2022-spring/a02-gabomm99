@@ -43,7 +43,6 @@ export function coinFlip() {
       'tails', 'heads'
     ]
  */
-
 export function coinFlips(flips) {
   let multiFlip = []
   let i = 0
