@@ -65,23 +65,7 @@ export function coinFlips(flips) {
  * @param {string[]} array 
  * @returns {{ heads: number, tails: number }}
  */
-/*export function countFlips(array) {
-  let tNum = 0
-  let hNum = 0
-  let counter = [] 
-  for (let flip in array){
-    if (array[flip] == "tails"){
-      tNum++
-      counter.tails = tNum
-    }
-    else{
-      hNum++
-      counter.heads =  hNum
-    }
-  }
-  return counter
-}
-*/
+
 export function countFlips(array) {
   let counter = {heads: 0, tails: 0} 
   for (let flip in array){
